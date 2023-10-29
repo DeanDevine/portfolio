@@ -57,12 +57,17 @@ const Contact = () => {
             Submit
           </button>
           <div className="links">
-            <a href="https://github.com/DeanDevine" target="_blank">
+            <a
+              href="https://github.com/DeanDevine"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
               <img src={GitHub} alt="GitHub logo" className="link" />
             </a>
             <a
               href="https://linkedin.com/in/dean-devine-a30a41294"
               target="_blank"
+              rel="noopener noreferrer"
             >
               <img src={LinkedIn} alt="LinkedIn logo" className="link" />
             </a>

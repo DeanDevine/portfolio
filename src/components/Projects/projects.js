@@ -9,6 +9,7 @@ const Projects = () => {
         <a
           href="https://ncsubsidiarynews.netlify.app/"
           target="_blank"
+          rel="noopener noreferrer"
           className="projectLink"
         >
           <div className="skillBar">
@@ -25,6 +26,7 @@ const Projects = () => {
         <a
           href="https://github.com/HannahHan9/Duck-Dale-mobile-game"
           target="_blank"
+          rel="noopener noreferrer"
           className="projectLink"
         >
           <div className="skillBar">
