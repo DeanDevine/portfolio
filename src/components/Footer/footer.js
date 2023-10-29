@@ -3,9 +3,9 @@ import './footer.css'
 
 const Footer = () => {
     return (
-        <section id="footer">
+        <footer className='footer'>
             Dean Devine | 2023
-        </section>
+        </footer>
     )
 }
 
