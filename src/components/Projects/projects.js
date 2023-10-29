@@ -6,7 +6,11 @@ const Projects = () => {
     <section id="projects">
       <span className="skillTitle">Projects</span>
       <div className="skillBars">
-        <a href="https://ncsubsidiarynews.netlify.app/" className="projectLink">
+        <a
+          href="https://ncsubsidiarynews.netlify.app/"
+          target="_blank"
+          className="projectLink"
+        >
           <div className="skillBar">
             <img src="" alt="" className="" />
             <div className="skillBarText">
@@ -20,6 +24,7 @@ const Projects = () => {
         </a>
         <a
           href="https://github.com/HannahHan9/Duck-Dale-mobile-game"
+          target="_blank"
           className="projectLink"
         >
           <div className="skillBar">
@@ -33,15 +38,14 @@ const Projects = () => {
             </div>
           </div>
         </a>
-        
-          <div className="skillBar">
-            <img src="" alt="" className="" />
-            <div className="skillBarText">
-              <h2>Flex</h2>
-              <p>A workout app that I'm currently building for Android.</p>
-            </div>
+
+        <div className="skillBar">
+          <img src="" alt="" className="" />
+          <div className="skillBarText">
+            <h2>Flex</h2>
+            <p>A workout app that I'm currently building for Android.</p>
           </div>
-        
+        </div>
       </div>
     </section>
   );
