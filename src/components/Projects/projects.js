@@ -18,7 +18,7 @@ const Projects = () => {
               <h2>NC News</h2>
               <p>
                 A web application similar to Reddit, using a backend API that I
-                built.
+                built with PostgreSQL.
               </p>
             </div>
           </div>
@@ -40,14 +40,23 @@ const Projects = () => {
             </div>
           </div>
         </a>
-
-        <div className="skillBar">
-          <img src="" alt="" className="" />
-          <div className="skillBarText">
-            <h2>Flex</h2>
-            <p>A workout app that I'm currently building for Android.</p>
+        <a
+          href="https://github.com/DeanDevine/fitness-exercise-app"
+          target="_blank"
+          rel="noopener noreferrer"
+          className="projectLink"
+        >
+          <div className="skillBar">
+            <img src="" alt="" className="" />
+            <div className="skillBarText">
+              <h2>Fitness Exercise App</h2>
+              <p>
+                A project that I'm currently building with React which uses the
+                RapidAPI ExerciseDB API.
+              </p>
+            </div>
           </div>
-        </div>
+        </a>
       </div>
     </section>
   );
