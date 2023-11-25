@@ -1,3 +1,3 @@
 Hosted portfolio:
 
-https://brilliant-pastelito-6afc6c.netlify.app/
+https://deandevine-portfolio.netlify.app/
