@@ -41,7 +41,7 @@ const Projects = () => {
           </div>
         </a>
         <a
-          href="https://github.com/DeanDevine/fitness-exercise-app"
+          href="https://github.com/DeanDevine/flex_webapp"
           target="_blank"
           rel="noopener noreferrer"
           className="projectLink"
@@ -49,10 +49,11 @@ const Projects = () => {
           <div className="skillBar">
             <img src="" alt="" className="" />
             <div className="skillBarText">
-              <h2>Fitness Exercise App</h2>
+              <h2>Flex</h2>
               <p>
-                A project that I'm currently building with React which uses the
-                RapidAPI ExerciseDB API.
+                A web app I'm currently building with React using my own backend
+                API, which allows users to search exercises and make forum
+                posts.
               </p>
             </div>
           </div>
